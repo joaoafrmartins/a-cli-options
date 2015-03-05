@@ -1,0 +1,29 @@
+{
+  "name": "a-cli-options",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "description": "default command line interface options",
+  "dependencies": {
+    "a-cli-command": ""
+  },
+  "devDependencies": {
+    "kosher": "",
+    "a-cli-domain": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "keywords": [
+    "a",
+    "cli",
+    "options"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/a-cli-options",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-cli-options.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-cli-options/issues"
+  }
+}
